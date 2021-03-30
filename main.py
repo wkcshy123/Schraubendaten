@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
-
+import plotly 
 sns.set()
 Data = pd.read_csv('DataRUB.csv')
 prozess_zustand = pd.read_csv('prozess_zustand.csv')
